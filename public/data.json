@@ -33,13 +33,13 @@
         "id": "623dd98159b844671b95ce2a",
         "image": "./images/asus.jpg",
         "price": 8616,
-        "name": "Asus Rog Zephyrus G15"
+        "name": "Asus Rog Zephyrus"
     },
     {
         "id": "623dd98165f77349870d623d",
         "image": "./images/asus2.jpg",
         "price": 39150,
-        "name": " Asus Chromebook Flip CX5"
+        "name": " Asus Chromebook Flip"
     },
     {
         "id": "623dd98188d26c60994f85f8",
@@ -57,7 +57,7 @@
         "id": "623dd9815b032538247d8340",
         "image": "./images/lenovo-2.jpg",
         "price": 27756,
-        "name": "Lenovo Thinkpad X1 Nano"
+        "name": "Lenovo Thinkpad X1"
     },
     {
         "id": "623dd9815cf29b94b8bba3d0",

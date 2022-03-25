@@ -1,0 +1,74 @@
+[
+    {
+        "id": "623dd9819c08fb973d258564",
+        "image": "./images/dell.jpg",
+        "price": 70715,
+        "name": "Dell XPS 13 9305"
+    },
+    {
+        "id": "623dd9817289c8af4d3ea7fa",
+        "image": "./images/dell-2.jpg",
+        "price": 4970,
+        "name": "Dell Inspiron 15 5510"
+    },
+    {
+        "id": "623dd981c7ef3d7417d55571",
+        "image": "./images/lenovo.jpg",
+        "price": 20904,
+        "name": "Lenovo Flex 5 Ryzen 5"
+    },
+    {
+        "id": "623dd98125f407201f7253dc",
+        "image": "./images/macbook.jpg",
+        "price": 87934,
+        "name": " Macbook Air"
+    },
+    {
+        "id": "623dd98107df346bcad004fc",
+        "image": "./images/hp.jpg",
+        "price": 3766,
+        "name": " HP Spectre X360 14"
+    },
+    {
+        "id": "623dd98159b844671b95ce2a",
+        "image": "./images/asus.jpg",
+        "price": 8616,
+        "name": "Asus Rog Zephyrus G15"
+    },
+    {
+        "id": "623dd98165f77349870d623d",
+        "image": "./images/asus2.jpg",
+        "price": 39150,
+        "name": " Asus Chromebook Flip CX5"
+    },
+    {
+        "id": "623dd98188d26c60994f85f8",
+        "image": "./images/lg.jpg",
+        "price": 73736,
+        "name": "Lg Gram 17"
+    },
+    {
+        "id": "623dd98157ee41e2d3ac79f3",
+        "image": "./images/hp-2.jpg",
+        "price": 2063,
+        "name": "Hp Envy X360 13"
+    },
+    {
+        "id": "623dd9815b032538247d8340",
+        "image": "./images/lenovo-2.jpg",
+        "price": 27756,
+        "name": "Lenovo Thinkpad X1 Nano"
+    },
+    {
+        "id": "623dd9815cf29b94b8bba3d0",
+        "image": "./images/lenonvo-3.jpg",
+        "price": 98706,
+        "name": "Lenovo Yoga 9i"
+    },
+    {
+        "id": "623dd98134e1e86b7abd0ea8",
+        "image": "./images/macbook-pro.jpg",
+        "price": 24547,
+        "name": "Macbook Pro"
+    }
+]

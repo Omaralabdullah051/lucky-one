@@ -1,9 +1,12 @@
 import React from 'react';
+import './Cart.css'
 
-const Cart = () => {
+const Cart = ({ cart }) => {
+
     return (
-        <div>
-            <h1>Selected items</h1>
+        <div className='cart'>
+            <h2 className='cart-title'><i>Selected items</i></h2>
+
         </div>
     );
 };

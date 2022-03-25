@@ -14,3 +14,8 @@
     grid-gap: 20px;
     padding: 50px;
 }
+
+.cart-container{
+    background-color: #03203C;
+    color: white;
+}

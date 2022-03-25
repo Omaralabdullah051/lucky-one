@@ -3,6 +3,7 @@
     height: 508px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
+    position: relative;
 }
 
 .product img{
@@ -14,4 +15,21 @@
 
 .product-info{
     padding: 0 20px;
+}
+
+.cart-btn{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: #03203C;
+    color: white;
+}
+
+.btn-text{
+    font-weight: 700;
+    margin-right: 8px;
 }

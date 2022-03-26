@@ -1,6 +1,6 @@
 # laptop-store
 
-live site link: [laptop-store](https://github.com/facebook/create-react-app).
+live site link: [laptop-store-bd](https://laptop-store-bd.netlify.app/).
 
 ## Available Scripts
 

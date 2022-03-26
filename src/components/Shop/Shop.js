@@ -18,6 +18,11 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    const hanldeChooseAgain = () => {
+        const cart = [];
+        setCart(cart);
+    }
+
     return (
         <div>
             <h1 className='title-text'><i>Welcome To Laptop Store</i></h1>
@@ -33,7 +38,7 @@ const Shop = () => {
                     }
                 </div>
                 <div className='cart-container'>
-                    <Cart cart={cart}></Cart>
+                    <Cart cart={cart} hanldeChooseAgain={hanldeChooseAgain}></Cart>
                 </div>
             </div>
         </div>

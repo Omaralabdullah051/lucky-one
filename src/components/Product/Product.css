@@ -33,3 +33,23 @@
     font-weight: 700;
     margin-right: 8px;
 }
+
+@media screen and (max-width: 660px) {
+    .product{
+        width: 200px;
+        height: 320px;
+        border: 1px solid #95A0A7;
+        border-radius: 8px;
+        position: relative;
+    }
+    .product img{
+        width: 186px;
+        height: 140px;
+        border-radius: 8px;
+        margin: 7px;
+    }
+    .product-info{
+        padding: 0 10px;
+        font-size: 10px;
+    }
+}

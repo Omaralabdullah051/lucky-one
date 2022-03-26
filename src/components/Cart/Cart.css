@@ -16,3 +16,19 @@
     color: white;
     font-weight: 700;
 }
+
+@media screen and (max-width:600px) {
+    .cart-title{
+        font-size: 15px;
+    }
+    .btn-item{
+        font-size: 8px;
+        padding: 4px;
+    }
+    .choose-one-text{
+        font-size: 10px;
+    }
+    .cart h5{
+        font-size: 8px;
+    }
+}

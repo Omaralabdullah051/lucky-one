@@ -7,3 +7,16 @@
 .question{
     text-align: center;
 }
+
+@media screen and (max-width:600px) {
+    .questions-container{
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    .questions-container h1{
+        font-size: 25px;
+    }
+    .questions-container h3{
+        font-size: 15px;
+    }
+}

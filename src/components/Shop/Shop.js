@@ -6,6 +6,7 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [chooseOne, setOne] = useState('');
 
     useEffect(() => {
         fetch('data.json')
@@ -14,8 +15,16 @@ const Shop = () => {
     }, [])
 
     const addTocart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        const exist = cart.find(item => item === product);
+        if (!exist) {
+            if (cart.length < 4) {
+                const newCart = [...cart, product];
+                setCart(newCart);
+            }
+            else {
+                alert("Opps! you can't add more than 4 item");
+            }
+        }
     }
 
     const hanldeChooseAgain = () => {
@@ -23,6 +32,11 @@ const Shop = () => {
         setCart(cart);
     }
 
+    const handleChooseOne = () => {
+        const cartItems = cart.map(item => item.name);
+        const chooseRandomly = cartItems[Math.floor(Math.random() * cartItems.length)];
+        setOne(chooseRandomly);
+    }
     return (
         <div>
             <h1 className='title-text'><i>Welcome To Laptop Store</i></h1>
@@ -38,7 +52,7 @@ const Shop = () => {
                     }
                 </div>
                 <div className='cart-container'>
-                    <Cart cart={cart} hanldeChooseAgain={hanldeChooseAgain}></Cart>
+                    <Cart cart={cart} hanldeChooseAgain={hanldeChooseAgain} chooseOne={chooseOne} handleChooseOne={handleChooseOne}></Cart>
                 </div>
             </div>
         </div>
